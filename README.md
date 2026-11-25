@@ -11,24 +11,26 @@ Solution `MicroservicesApp` composée de 3 projets Web API et d'une bibliothèqu
 
 ## Vidéo de démonstration
 
-La démo (2 min 41, sans son, sous-titrée en français) se lance toute seule ci-dessous, rien à installer :
+Démo de 2 min 41, sans son, sous-titrée en français. Contenu : interface RabbitMQ (Overview, Connections,
+Channels, Exchanges, Bindings, Queues, Consumers), ajout d'un produit dans Swagger, synchronisation
+ProductsAPI → OrdersAPI via RabbitMQ, appels à travers la gateway Ocelot.
 
-![Démo TP8 : RabbitMQ, Swagger, synchronisation via RabbitMQ et API Gateway Ocelot](demo/TP8_demo.gif)
+### 1. Voir la démo directement sur GitHub (rien à installer)
 
-Contenu : interface RabbitMQ (Overview, Connections, Channels, Exchanges, Bindings, Queues, Consumers),
-ajout d'un produit dans Swagger, synchronisation ProductsAPI → OrdersAPI via RabbitMQ, appels à travers
-la gateway Ocelot.
+La version animée (GIF) est dans la branche **[`demo`](https://github.com/Cha3yassin/tp8-.net/tree/demo)** :
+👉 **https://github.com/Cha3yassin/tp8-.net/tree/demo** – elle se lance toute seule dans le README de cette branche.
 
-### Accéder à la vidéo complète (meilleure qualité)
+Sur la page du dépôt, on peut aussi choisir la branche **`demo`** dans le menu des branches (en haut à gauche, à côté de `main`).
 
-Les deux fichiers sont dans le dossier [`demo/`](demo) :
+### 2. Vidéo complète HD (cette branche `main`)
 
-| Fichier | Comment le voir |
-|---|---|
-| [`demo/TP8_demo.gif`](demo/TP8_demo.gif) | S'affiche directement sur GitHub (ci-dessus), dans n'importe quel navigateur. |
-| [`demo/TP8_demo.webm`](demo/TP8_demo.webm) | Vidéo HD 1280×720. GitHub ne la lit pas dans la page : ouvrir le fichier puis cliquer sur **Download** (ou **View raw**). Elle se lit ensuite dans **Chrome / Edge / Firefox** (glisser le fichier dans le navigateur), le **Lecteur multimédia de Windows** ou **VLC**. |
+Fichier : [`demo/TP8_demo.webm`](demo/TP8_demo.webm) – 1280×720, meilleure qualité.
 
-Lien direct de téléchargement de la vidéo HD :
+GitHub ne lit pas ce format dans la page : ouvrir le fichier puis cliquer sur **Download** (ou **View raw**).
+La vidéo se lit ensuite dans **Chrome / Edge / Firefox** (glisser le fichier dans le navigateur),
+le **Lecteur multimédia de Windows** ou **VLC**.
+
+Lien direct de téléchargement :
 https://github.com/Cha3yassin/tp8-.net/raw/main/demo/TP8_demo.webm
 
 ## Technologies
